@@ -13,3 +13,4 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL = "qwen/qwen3.8-27b"
 
 TEMPERATURE = 0.4
+# print("success")
