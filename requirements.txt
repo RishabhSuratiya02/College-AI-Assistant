@@ -12,3 +12,5 @@ langchain_tavily
 sentence-transformers
 faiss-cpu
 pypdf
+
+streamlit
