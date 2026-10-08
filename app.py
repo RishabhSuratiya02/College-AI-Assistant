@@ -529,59 +529,59 @@ app = build_graph()
 # ============================================================
 
 st.markdown(
-    """
-    <style>
+"""
+<style>
 
-    .main-header {
-        text-align: center;
-        padding: 1rem 0 0.5rem 0;
-    }
+.main-header {
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+}
 
-    .main-header h1 {
-        font-size: 2.2rem;
-        margin-bottom: 0.2rem;
-    }
+.main-header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
+}
 
-    .main-header p {
-        color: #888;
-        font-size: 0.95rem;
-    }
+.main-header p {
+    color: #888;
+    font-size: 0.95rem;
+}
 
-    .stChatMessage {
-        border-radius: 12px;
-    }
+.stChatMessage {
+    border-radius: 12px;
+}
 
-    div[data-testid="stChatInput"] {
-        border-radius: 12px;
-    }
+div[data-testid="stChatInput"] {
+    border-radius: 12px;
+}
 
-    .query-badge {
-        display: inline-block;
-        padding: 2px 10px;
-        border-radius: 999px;
-        font-size: 0.7rem;
-        font-weight: 600;
-        margin-bottom: 4px;
-    }
+.query-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
 
-    .badge-academic {
-        background-color: #1f3a5f;
-        color: #93c5fd;
-    }
+.badge-academic {
+    background-color: #1f3a5f;
+    color: #93c5fd;
+}
 
-    .badge-fee {
-        background-color: #4a3110;
-        color: #fcd34d;
-    }
+.badge-fee {
+    background-color: #4a3110;
+    color: #fcd34d;
+}
 
-    .badge-general {
-        background-color: #1f4a2e;
-        color: #86efac;
-    }
+.badge-general {
+    background-color: #1f4a2e;
+    color: #86efac;
+}
 
-    </style>
-    """,
-    unsafe_allow_html=True
+</style>
+""",
+unsafe_allow_html=True
 )
 
 
@@ -590,21 +590,14 @@ st.markdown(
 # ============================================================
 
 st.markdown(
-    """
-    <div class="main-header">
-
-        <h1>🎓 College Assistant</h1>
-
-        <p>
-            Ask me about academics, fees,
-            or anything else campus-related
-        </p>
-
-    </div>
-    """,
-    unsafe_allow_html=True
+"""
+<div class="main-header">
+    <h1>🎓 College Assistant</h1>
+    <p>Ask me about academics, fees, or anything else campus-related</p>
+</div>
+""",
+unsafe_allow_html=True
 )
-
 
 # ============================================================
 # Step 12 - Sidebar
@@ -858,4 +851,4 @@ if user_query:
                 st.error(
                     f"⚠️ Something went wrong:\n\n{str(e)}"
                 )
-                
+
